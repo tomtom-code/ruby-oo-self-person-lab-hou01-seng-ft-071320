@@ -42,6 +42,7 @@ class Person
 
     def get_paid(salary)
         @bank_account+=salary
+        binding.pry
         return "all about the benjamins"
     end
     def take_bath
@@ -52,6 +53,8 @@ class Person
         @happiness+=2
         return "♪ another one bites the dust ♫"
     end
+
+
     def call_friend
     end
     def start_conversation(person, topic)
