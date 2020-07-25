@@ -42,7 +42,7 @@ class Person
 
     def get_paid(salary)
         @bank_account+=salary
-        binding.pry
+        
         return "all about the benjamins"
     end
     def take_bath
