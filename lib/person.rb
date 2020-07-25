@@ -19,7 +19,7 @@ class Person
         hygiene>7? "true":"false"
     end
 
-    def happy?(happiness)
+    def happy?
 
         if @happiness > 7
           true
