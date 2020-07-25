@@ -2,6 +2,10 @@
 require 'pry'
 
 class Person
+    
+    attr_accessor:bank_account, :happiness, :hygiene
+    attr_reader:name
+
     def initialize (name,bank_account=25,happiness=8,hygiene=8)
         @name = name
         @bank_account =bank_account
@@ -9,13 +13,7 @@ class Person
 
         @hygiene=hygiene
     end
-    attr_accessor:bank_account
-    attr_accessor:happiness
-    attr_accessor:hygiene
 
-    def name
-      @name
-    end
 
     def clean? (hygiene)
         hygiene>7? "true":"false"
