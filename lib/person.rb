@@ -21,7 +21,7 @@ class Person
 
     def happy?(happiness)
 
-        if @happiness > 7
+        if happiness > 7
           true
         else
           false
