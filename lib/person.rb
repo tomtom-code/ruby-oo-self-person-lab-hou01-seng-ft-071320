@@ -63,10 +63,10 @@ class Person
     def call_friend(friend)
       self.happiness += 3
       friend.happiness += 3
-      return "Hi #{friend.name} It #{self.name}. How are you?"
+      return "Hi #{friend.name}! It #{self.name}. How are you?"
     end
 
-    
+
     def start_conversation(person, topic)
     end
 end
