@@ -44,12 +44,14 @@ class Person
         @bank_account+=salary
         return "all about the benjamins"
     end
+
     def take_bath
 
         self.hygiene+=4
         return "♪ Rub-a-dub just relaxing in the tub ♫"
 
     end
+
     def work_out
 
       self.hygiene -=3
@@ -58,7 +60,10 @@ class Person
     end
 
 
-    def call_friend
+    def call_friend(friend)
+      self.happiness += 3
+      friend.happiness += 3
+      return "Hi #{friend.name} It #{self.name}. How are you?"
     end
     def start_conversation(person, topic)
     end
