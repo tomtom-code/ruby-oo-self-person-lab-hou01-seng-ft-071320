@@ -42,12 +42,12 @@ class Person
 
     def get_paid(salary)
         @bank_account+=salary
-        
         return "all about the benjamins"
     end
     def take_bath
         @hygiene+=4
         return "♪ Rub-a-dub just relaxing in the tub ♫"
+        binding.pry
     end
     def work_out
         @happiness+=2
