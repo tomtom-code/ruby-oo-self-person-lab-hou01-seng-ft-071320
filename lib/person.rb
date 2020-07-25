@@ -14,6 +14,14 @@ class Person
         @hygiene=hygiene
     end
 
+    def hygiene
+        @hygiene.clamp(0,10)
+    end
+
+    def happiness
+        @happiness.clamp(0,10)
+    end
+
 
     def clean?
         if @hygiene > 7
