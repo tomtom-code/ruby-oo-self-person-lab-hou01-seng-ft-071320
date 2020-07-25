@@ -45,8 +45,7 @@ class Person
         return "all about the benjamins"
     end
     def take_bath
-      binding.pry
-      
+
         @hygiene+=4
         return "♪ Rub-a-dub just relaxing in the tub ♫"
 
